@@ -2,6 +2,11 @@ name: UNet
 num_gpu: 1
 manual_seed: 10
 
+train:
+  lr: !!float 1e-3
+  batch_size: 2
+  epochs: 100
+
 path: 
   # trained_model: 
   # pretrained_network:
