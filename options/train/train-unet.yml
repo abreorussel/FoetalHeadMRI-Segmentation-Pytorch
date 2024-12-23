@@ -1,0 +1,16 @@
+name: UNet
+num_gpu: 1
+manual_seed: 10
+
+path: 
+  # trained_model: 
+  # pretrained_network:
+  strict_load: true
+
+metrics:
+  dice: 
+    type: calculate_dice
+
+  hd95:
+    type: calculate_hd95
+
