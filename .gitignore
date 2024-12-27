@@ -2,3 +2,4 @@ foetal-seg/
 dataset/
 *.tif
 __pycache__/
+*.png
