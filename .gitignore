@@ -1,0 +1,4 @@
+foetal-seg/
+dataset/
+*.tif
+__pycache__/
