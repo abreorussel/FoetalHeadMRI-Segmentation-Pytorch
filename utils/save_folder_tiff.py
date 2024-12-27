@@ -9,7 +9,7 @@ def save_folder_as_tiff(folder_path, output_tiff_path ):
     first_image = Image.open(image_file_paths[0])
     images = list()
 
-    for img_path in tqdm(image_file_paths):
+    for img_path in tqdm(image_file_paths[1:]):
         img = Image.open(img_path)
         images.append(img)
 
