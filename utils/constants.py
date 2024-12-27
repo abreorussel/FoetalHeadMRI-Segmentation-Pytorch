@@ -1,0 +1,5 @@
+# Data Split Size
+
+TRAIN_SIZE = 70
+VAL_SIZE = 20
+TEST_SIZE = 10
