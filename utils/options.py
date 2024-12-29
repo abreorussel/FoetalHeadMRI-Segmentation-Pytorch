@@ -23,6 +23,7 @@ def parse_options(path , is_train = True):
     set_random_seed(seed)
 
     opt['is_train'] = is_train
+    return opt, args
         
 
     
